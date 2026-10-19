@@ -98,12 +98,18 @@ struct AuthenticateUseCaseTests {
     @Test func testLogoutRepositoryFailureThrowsError() async {
         let mockRepo = MockAuthRepository()
         let expectedError = DomainError.unknown("Logout failed")
+        mockRepo.isLoggedIn = true
         mockRepo.shouldThrowError = expectedError
 
         let logoutUseCase = LogoutUseCase(repository: mockRepo)
+        let getCurrentUserUseCase = GetCurrentUserUseCase(repository: mockRepo)
 
         await #expect(throws: expectedError) {
             try await logoutUseCase.execute()
         }
+
+        // Verify session survives when logout fails
+        #expect(getCurrentUserUseCase.isUserLoggedIn() == true)
+        #expect(getCurrentUserUseCase.execute() != nil)
     }
 }
