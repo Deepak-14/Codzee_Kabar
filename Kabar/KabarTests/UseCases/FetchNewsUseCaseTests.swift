@@ -39,11 +39,12 @@ struct FetchNewsUseCaseTests {
 
     @Test func testFetchNewsFailureThrowsError() async {
         let mockRepo = MockNewsRepository()
-        mockRepo.shouldThrowError = DomainError.networkError("Failed to connect")
+        let expectedError = DomainError.networkError("Failed to connect")
+        mockRepo.shouldThrowError = expectedError
 
         let useCase = FetchNewsUseCase(repository: mockRepo)
 
-        await #expect(throws: DomainError.self) {
+        await #expect(throws: expectedError) {
             _ = try await useCase.execute(query: "tech")
         }
     }

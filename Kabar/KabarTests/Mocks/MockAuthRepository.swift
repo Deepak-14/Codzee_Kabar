@@ -27,14 +27,13 @@ final class MockAuthRepository: AuthRepositoryProtocol, @unchecked Sendable {
             throw error
         }
         isLoggedIn = false
-        stubbedUser = nil
     }
 
     func getCurrentUser() -> User? {
-        return stubbedUser
+        return isLoggedIn ? stubbedUser : nil
     }
 
     func isUserLoggedIn() -> Bool {
-        return isLoggedIn
+        return isLoggedIn && stubbedUser != nil
     }
 }
