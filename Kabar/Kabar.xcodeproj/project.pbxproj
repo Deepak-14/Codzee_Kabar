@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECAC1C9303E1D6100102212 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CECAC1C8303E1D6100102212 /* FirebaseAnalytics */; };
+		CECAC1CB303E1D6100102212 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CECAC1CA303E1D6100102212 /* FirebaseAuth */; };
+		CECAC1CD303E1D6100102212 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = CECAC1CC303E1D6100102212 /* FirebaseCore */; };
+		CECAC1CF303E1D6100102212 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = CECAC1CE303E1D6100102212 /* FirebaseCrashlytics */; };
+		CECAC1D1303E1D6100102212 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = CECAC1D0303E1D6100102212 /* FirebaseDatabase */; };
+		CECAC1D3303E1D6100102212 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CECAC1D2303E1D6100102212 /* FirebaseFirestore */; };
+		CECAC1D5303E1D6100102212 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = CECAC1D4303E1D6100102212 /* FirebaseInAppMessaging-Beta */; };
+		CECAC1D7303E1D6100102212 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CECAC1D6303E1D6100102212 /* FirebaseMessaging */; };
+		CECAC1D9303E1D6100102212 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CECAC1D8303E1D6100102212 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB0F722302365A00002E334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB0F70A3023659E0002E334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB0F7113023659E0002E334;
+			remoteInfo = Kabar;
+		};
+		CEB0F72C302365A00002E334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB0F70A3023659E0002E334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB0F7113023659E0002E334;
+			remoteInfo = Kabar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB0F7123023659E0002E334 /* Kabar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kabar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB0F721302365A00002E334 /* KabarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KabarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB0F72B302365A00002E334 /* KabarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KabarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CEB0F74330250CCB0002E334 /* Exceptions for "Kabar" folder in "Kabar" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CEB0F7113023659E0002E334 /* Kabar */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CEB0F7143023659E0002E334 /* Kabar */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CEB0F74330250CCB0002E334 /* Exceptions for "Kabar" folder in "Kabar" target */,
+			);
+			path = Kabar;
+			sourceTree = "<group>";
+		};
+		CEB0F724302365A00002E334 /* KabarTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KabarTests;
+			sourceTree = "<group>";
+		};
+		CEB0F72E302365A00002E334 /* KabarUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KabarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB0F70F3023659E0002E334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECAC1D7303E1D6100102212 /* FirebaseMessaging in Frameworks */,
+				CECAC1D1303E1D6100102212 /* FirebaseDatabase in Frameworks */,
+				CECAC1D9303E1D6100102212 /* FirebaseStorage in Frameworks */,
+				CECAC1D5303E1D6100102212 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				CECAC1C9303E1D6100102212 /* FirebaseAnalytics in Frameworks */,
+				CECAC1CF303E1D6100102212 /* FirebaseCrashlytics in Frameworks */,
+				CECAC1CD303E1D6100102212 /* FirebaseCore in Frameworks */,
+				CECAC1CB303E1D6100102212 /* FirebaseAuth in Frameworks */,
+				CECAC1D3303E1D6100102212 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB0F71E302365A00002E334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB0F728302365A00002E334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB0F7093023659E0002E334 = {
+			isa = PBXGroup;
+			children = (
+				CEB0F7143023659E0002E334 /* Kabar */,
+				CEB0F724302365A00002E334 /* KabarTests */,
+				CEB0F72E302365A00002E334 /* KabarUITests */,
+				CEB0F7133023659E0002E334 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB0F7133023659E0002E334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB0F7123023659E0002E334 /* Kabar.app */,
+				CEB0F721302365A00002E334 /* KabarTests.xctest */,
+				CEB0F72B302365A00002E334 /* KabarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB0F7113023659E0002E334 /* Kabar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB0F735302365A00002E334 /* Build configuration list for PBXNativeTarget "Kabar" */;
+			buildPhases = (
+				CEB0F70E3023659E0002E334 /* Sources */,
+				CEB0F70F3023659E0002E334 /* Frameworks */,
+				CEB0F7103023659E0002E334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CEB0F7143023659E0002E334 /* Kabar */,
+			);
+			name = Kabar;
+			packageProductDependencies = (
+				CECAC1C8303E1D6100102212 /* FirebaseAnalytics */,
+				CECAC1CA303E1D6100102212 /* FirebaseAuth */,
+				CECAC1CC303E1D6100102212 /* FirebaseCore */,
+				CECAC1CE303E1D6100102212 /* FirebaseCrashlytics */,
+				CECAC1D0303E1D6100102212 /* FirebaseDatabase */,
+				CECAC1D2303E1D6100102212 /* FirebaseFirestore */,
+				CECAC1D4303E1D6100102212 /* FirebaseInAppMessaging-Beta */,
+				CECAC1D6303E1D6100102212 /* FirebaseMessaging */,
+				CECAC1D8303E1D6100102212 /* FirebaseStorage */,
+			);
+			productName = Kabar;
+			productReference = CEB0F7123023659E0002E334 /* Kabar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB0F720302365A00002E334 /* KabarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB0F738302365A00002E334 /* Build configuration list for PBXNativeTarget "KabarTests" */;
+			buildPhases = (
+				CEB0F71D302365A00002E334 /* Sources */,
+				CEB0F71E302365A00002E334 /* Frameworks */,
+				CEB0F71F302365A00002E334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB0F723302365A00002E334 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CEB0F724302365A00002E334 /* KabarTests */,
+			);
+			name = KabarTests;
+			packageProductDependencies = (
+			);
+			productName = KabarTests;
+			productReference = CEB0F721302365A00002E334 /* KabarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEB0F72A302365A00002E334 /* KabarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB0F73B302365A00002E334 /* Build configuration list for PBXNativeTarget "KabarUITests" */;
+			buildPhases = (
+				CEB0F727302365A00002E334 /* Sources */,
+				CEB0F728302365A00002E334 /* Frameworks */,
+				CEB0F729302365A00002E334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB0F72D302365A00002E334 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CEB0F72E302365A00002E334 /* KabarUITests */,
+			);
+			name = KabarUITests;
+			packageProductDependencies = (
+			);
+			productName = KabarUITests;
+			productReference = CEB0F72B302365A00002E334 /* KabarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB0F70A3023659E0002E334 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					CEB0F7113023659E0002E334 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					CEB0F720302365A00002E334 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = CEB0F7113023659E0002E334;
+					};
+					CEB0F72A302365A00002E334 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = CEB0F7113023659E0002E334;
+					};
+				};
+			};
+			buildConfigurationList = CEB0F70D3023659E0002E334 /* Build configuration list for PBXProject "Kabar" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB0F7093023659E0002E334;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CECAC1C7303E1D6100102212 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CEB0F7133023659E0002E334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB0F7113023659E0002E334 /* Kabar */,
+				CEB0F720302365A00002E334 /* KabarTests */,
+				CEB0F72A302365A00002E334 /* KabarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB0F7103023659E0002E334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB0F71F302365A00002E334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB0F729302365A00002E334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB0F70E3023659E0002E334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB0F71D302365A00002E334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB0F727302365A00002E334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB0F723302365A00002E334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB0F7113023659E0002E334 /* Kabar */;
+			targetProxy = CEB0F722302365A00002E334 /* PBXContainerItemProxy */;
+		};
+		CEB0F72D302365A00002E334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB0F7113023659E0002E334 /* Kabar */;
+			targetProxy = CEB0F72C302365A00002E334 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEB0F733302365A00002E334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = G5QR3M34QX;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEB0F734302365A00002E334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = G5QR3M34QX;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB0F736302365A00002E334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5QR3M34QX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kabar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankalacorp.kabar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB0F737302365A00002E334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5QR3M34QX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kabar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankalacorp.kabar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEB0F739302365A00002E334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5QR3M34QX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KabarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kabar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kabar";
+			};
+			name = Debug;
+		};
+		CEB0F73A302365A00002E334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5QR3M34QX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KabarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kabar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kabar";
+			};
+			name = Release;
+		};
+		CEB0F73C302365A00002E334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5QR3M34QX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KabarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kabar;
+			};
+			name = Debug;
+		};
+		CEB0F73D302365A00002E334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5QR3M34QX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KabarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kabar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB0F70D3023659E0002E334 /* Build configuration list for PBXProject "Kabar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB0F733302365A00002E334 /* Debug */,
+				CEB0F734302365A00002E334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB0F735302365A00002E334 /* Build configuration list for PBXNativeTarget "Kabar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB0F736302365A00002E334 /* Debug */,
+				CEB0F737302365A00002E334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB0F738302365A00002E334 /* Build configuration list for PBXNativeTarget "KabarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB0F739302365A00002E334 /* Debug */,
+				CEB0F73A302365A00002E334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB0F73B302365A00002E334 /* Build configuration list for PBXNativeTarget "KabarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB0F73C302365A00002E334 /* Debug */,
+				CEB0F73D302365A00002E334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CECAC1C7303E1D6100102212 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 12.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CECAC1C8303E1D6100102212 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAC1C7303E1D6100102212 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CECAC1CA303E1D6100102212 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAC1C7303E1D6100102212 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CECAC1CC303E1D6100102212 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAC1C7303E1D6100102212 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		CECAC1CE303E1D6100102212 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAC1C7303E1D6100102212 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		CECAC1D0303E1D6100102212 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAC1C7303E1D6100102212 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		CECAC1D2303E1D6100102212 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAC1C7303E1D6100102212 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		CECAC1D4303E1D6100102212 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAC1C7303E1D6100102212 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		CECAC1D6303E1D6100102212 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAC1C7303E1D6100102212 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		CECAC1D8303E1D6100102212 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAC1C7303E1D6100102212 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CEB0F70A3023659E0002E334 /* Project object */;
+}
